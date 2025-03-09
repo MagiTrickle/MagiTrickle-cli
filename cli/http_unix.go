@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	api "magitrickle-terminal/pkg/api"
+	api "github.com/Ponywka/MagiTrickle/backend/pkg/api"
 )
 
 func doUnixRequest(method, urlPath string, body []byte) (*http.Response, error) {

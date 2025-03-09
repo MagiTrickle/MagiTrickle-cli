@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"magitrickle-terminal/pkg/api/types"
+	"github.com/Ponywka/MagiTrickle/backend/pkg/api/types"
 
 	"github.com/spf13/cobra"
 )

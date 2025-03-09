@@ -57,7 +57,7 @@ package:
 	echo 'Section: net' >> $(PKG_DIR)/control/control
 	echo 'Priority: optional' >> $(PKG_DIR)/control/control
 	echo 'Depends: libc, iptables, socat' >> $(PKG_DIR)/control/control
-	mkdir ./opt
+	mkdir -p ./opt
 	cp -r ./opt $(PKG_DIR)/data/
 	tar -C $(PKG_DIR)/control -czvf $(PKG_DIR)/control.tar.gz .
 	tar -C $(PKG_DIR)/data -czvf $(PKG_DIR)/data.tar.gz .

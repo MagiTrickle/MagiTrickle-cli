@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"magitrickle-terminal/pkg/api/types"
+	"github.com/Ponywka/MagiTrickle/backend/pkg/api/types"
 )
 
 func parseAPIError(resp *http.Response) error {
