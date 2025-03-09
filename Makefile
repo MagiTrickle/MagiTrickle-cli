@@ -1,5 +1,5 @@
-APP_NAME = magitrickle-terminal
-APP_DESCRIPTION = A standalone CLI/TUI module providing convenient terminal-based interaction with MagiTrickle
+APP_NAME = magitrickle-cli
+APP_DESCRIPTION = A standalone CLI module providing convenient terminal-based interaction with MagiTrickle
 APP_MAINTAINER = Daniil Davydov <me@dan0102dan.ru>
 
 COMMIT = $(shell git rev-parse --short HEAD)
