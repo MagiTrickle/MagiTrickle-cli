@@ -1,7 +1,7 @@
 package main
 
 import (
-	"magitrickle-terminal/cli"
+	"magitrickle-cli/cli"
 )
 
 func main() {

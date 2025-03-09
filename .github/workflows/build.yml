@@ -85,7 +85,7 @@ jobs:
         id: create_file_list
         run: |
           echo 'file_list<<EOF' >> $GITHUB_OUTPUT
-          find . -name "magitrickle-terminal_*_${{ matrix.target }}.ipk" -print >> $GITHUB_OUTPUT
+          find . -name "magitrickle-cli_*_${{ matrix.target }}.ipk" -print >> $GITHUB_OUTPUT
           echo 'EOF' >> $GITHUB_OUTPUT
 
       - name: Upload artifact
@@ -102,4 +102,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |-
-            ./.build/magitrickle-terminal_*_${{ matrix.target }}.ipk
+            ./.build/magitrickle-cli_*_${{ matrix.target }}.ipk

@@ -1,4 +1,4 @@
-module magitrickle-terminal
+module magitrickle-cli
 
 go 1.21
 
