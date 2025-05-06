@@ -1,5 +1,3 @@
-![MagiTrickle-cli](./img/compressed.webp)
-
 # MagiTrickle CLI
 
 `magitrickle` is a command-line tool for managing and configuring MagiTrickle through a UNIX socket.
