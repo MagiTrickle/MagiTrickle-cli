@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://gitlab.com/magitrickle/magitrickle-cli/-/raw/develop/img/logo256.png" alt="MagiTrickle-CLI logo"/>
+</p>
+
 # MagiTrickle CLI
 
 `magitrickle` is a command-line tool for managing and configuring MagiTrickle through a UNIX socket.
